@@ -13,7 +13,6 @@ def genereate_matrix(n):
 
 def get_neighbours(input_matrix, i, j):
     if i == -1 or j == -1 or i == L or j == L:
-        # print('Fuck')
         return 0
     else:
         return input_matrix[i][j]
